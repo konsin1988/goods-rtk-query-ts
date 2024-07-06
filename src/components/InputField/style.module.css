@@ -1,0 +1,27 @@
+.label {
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+button:hover {
+    background: rgb(147, 168, 188);
+    color: white;
+    border: 2px solid transparent
+}
+button:active {
+    border: 2px solid red;
+    transform: scale(.95);
+}
+.input {
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(198, 198, 201);
+}
